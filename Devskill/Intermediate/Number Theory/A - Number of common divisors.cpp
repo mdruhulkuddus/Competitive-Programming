@@ -20,8 +20,12 @@ int find_divisors(int n) //O(sqrt(n))
 
 int find_gcd(int a, int b)
 {
+    /*
     if(b==0) return a;
-    return find_gcd(b, a%b);
+    return find_gcd(b, a%b); */
+
+    // or default fn
+    return __gcd(a, b);
 
 }
 
